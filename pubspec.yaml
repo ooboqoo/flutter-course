@@ -1,0 +1,21 @@
+name: flutter_course
+description: Lean Flutter and Dart to Build iOS and Android Apps
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
