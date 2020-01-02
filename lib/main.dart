@@ -3,17 +3,20 @@ import 'package:flutter/material.dart';
 import 'app_counter/app.dart';
 import 'app_quiz/app.dart';
 import 'app_meals/app.dart';
+import 'app-shop/app.dart';
 
 var appList = {
   'Counter App': '/counter-app',
   'Quiz App': '/quiz-app',
-  'Meals App': '/meals-app',
+  'Meals App ( navigation )': '/meals-app',
+  'Shop App ( provider )': '/shop-app',
 };
 
 var appRoutes = {
   '/counter-app': (context) => CounterApp(),
   '/quiz-app': (context) => QuizApp(),
   '/meals-app': (context) => MealsApp(),
+  '/shop-app': (context) => ShopApp(),
 };
 
 void main() => runApp(MyApp());
